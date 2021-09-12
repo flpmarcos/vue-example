@@ -49,4 +49,15 @@ $(document).ready(function() {
     }
     $('.js-add').click(onAdd);
     $('.js-livro').click(toggleRemovido);
+
+    // // Comando 1
+    // var data = {
+    //     livros: ['Orange is The New Black - Piper Kerman', 'A Origem das Espécies - Charles Darwin'],
+    //     titulo: 'Livros 2'
+    // };
+    // // Comando 2
+    // new Vue({
+    //     el: '#app',
+    //     data: data
+    // });
 });
